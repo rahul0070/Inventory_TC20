@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.porterlee.inventory.SoftKeyboardHandledConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inventory_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.porterlee.inventory.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/item_color_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        tools:layout_editor_absoluteY="159dp">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/location_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeLayout"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/startView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/plcDark"
+            android:textColor="@color/item_color_white"
+            android:padding="18dp"
+            android:textSize="21dp"
+            android:text="Scan a location to begin" />
+
+        <TextView
+            android:id="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/plcDark"
+            android:textColor="@color/item_color_white"
+            android:padding="10dp"
+            android:textSize="14dp"
+            android:text="Porter lee Corporation" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textViewC"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Item Count"
+                android:gravity="center"
+                android:background="@color/plcDark"
+                android:textColor="@color/item_color_white"
+                android:textSize="16sp"
+                android:layout_weight="0.5"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/textViewCount"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/plcLight"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:padding="3dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textViewL"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Location selected"
+                android:gravity="center"
+                android:background="@color/plcDark"
+                android:textColor="@color/item_color_white"
+                android:textSize="16sp"
+                android:layout_weight="0.5"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/textViewLocation"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/plcLight"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:padding="4dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textViewScannedInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last scanned"
+                android:gravity="center"
+                android:background="@color/plcDark"
+                android:textColor="@color/item_color_white"
+                android:textSize="16sp"
+                android:layout_weight="0.5"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/textViewScanned"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/plcLight"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:padding="2dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/containerWelcome"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/containerWelcomeNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="Scan items in the container"
+                android:background="@color/plcDark"
+                android:textStyle="bold"
+                android:textColor="@color/item_color_white"
+                android:textSize="20dp"
+                android:layout_weight="0.5"
+                android:padding="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/containerLayout"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textViewContainerInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Container ID  "
+                    android:background="@color/plcDark"
+                    android:textColor="@color/item_color_white"
+                    android:textSize="15sp"
+                    android:gravity="right"
+                    android:layout_weight="0.5"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/containerId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/plcDark"
+                    android:textSize="15sp"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/item_color_white"
+                    android:gravity="left"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/containerButtonLayout"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp"
+                android:gravity="center"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/containerButtonOk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="containerOkButton"
+                    android:text="Done"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <View style="@style/Divider"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/item_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/item_color_white"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </LinearLayout>
+
+
+
+</com.porterlee.inventory.SoftKeyboardHandledConstraintLayout>

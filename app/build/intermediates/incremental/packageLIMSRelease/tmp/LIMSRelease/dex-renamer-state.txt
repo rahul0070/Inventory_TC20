@@ -1,0 +1,4 @@
+#Sun Feb 06 18:56:14 MST 2022
+base.0=C\:\\Users\\rahul\\Documents\\Porterlee\\PLC Inventory\\Inventory_TC20\\app\\build\\intermediates\\dex\\LIMSRelease\\mergeDexLIMSRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

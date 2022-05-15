@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "Inventory.LAM",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 12,
+        "versionName": "3.1.1",
+        "outputFile": "app-LAM-debug.apk",
+        "fullName": "LAMDebug",
+        "baseName": "LAM-debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "Inventory.LAM",
+        "split": "",
+        "minSdkVersion": "24"
+      }
+    }
+  ]
+}

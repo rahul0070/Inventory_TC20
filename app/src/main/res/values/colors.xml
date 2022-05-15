@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#5A6AC0</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="item_color_white">#FFFFFFFF</color>
+    <color name="item_color_yellow">#5ff9c702</color>
+
+    <color name="plcBackground">#FF187DF8</color>
+    <color name="plcLight2">#FF7AC1FA</color>
+    <color name="plcLight">#FFAADCFD</color>
+    <color name="plcDark">#093483</color>
+    <color name="black">#000000</color>
+    <color name="plcGray">#FFECEBEB</color>
+</resources>

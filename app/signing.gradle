@@ -1,0 +1,8 @@
+ext.plc_signing = [
+        storeFilePath   : 'C:/Users/but/porterlee.p12',
+        storePassword   : 'Voyager6779',
+        keyAlias        : 'plc_inventory',
+        keyPassword     : 'Voyager6779',
+        v1SigningEnabled: true,
+        v2SigningEnabled: true,
+]

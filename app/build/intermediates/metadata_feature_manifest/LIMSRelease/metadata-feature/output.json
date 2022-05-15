@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "applicationId": "Inventory.LIMS.release",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "METADATA_FEATURE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 12,
+        "versionName": "3.1.1.7",
+        "outputFile": "app-LIMS-release.apk",
+        "fullName": "LIMSRelease",
+        "baseName": "LIMS-release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {}
+    }
+  ]
+}

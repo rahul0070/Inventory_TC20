@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.porterlee.inventory.release"
+4    android:versionCode="12"
+5    android:versionName="8.0.18.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:5:22-63
+12    <uses-permission android:name="com.symbol.emdk.permission.EMDK" />
+12-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:6:5-70
+12-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:10:5-30:19
+16        android:allowBackup="true"
+16-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:11:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\rahul\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:13:9-41
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:14:9-40
+23        <uses-library android:name="com.symbol.emdk" />
+23-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:17:9-55
+23-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:17:23-53
+24
+25        <activity
+25-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:20:9-29:20
+26            android:name="com.porterlee.inventory.MainActivity"
+26-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:21:13-64
+27            android:configChanges="orientation|screenSize|keyboardHidden"
+27-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:22:13-74
+28            android:label="@string/app_name" >
+28-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:23:13-45
+29            <intent-filter>
+29-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:24:13-28:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:25:17-69
+30-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:25:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:27:17-77
+32-->C:\Users\rahul\Documents\Porterlee\EMS Inventory\test_barcode_rebuild_10\app\src\main\AndroidManifest.xml:27:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>

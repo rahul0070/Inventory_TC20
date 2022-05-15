@@ -1,0 +1,4 @@
+#Thu Jun 25 12:20:15 MDT 2020
+base.0=C\:\\Users\\rahul\\Documents\\Porterlee\\EMS Inventory\\test_barcode_rebuild_10\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

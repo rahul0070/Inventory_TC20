@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "Inventory.LAM.release",
+  "variantName": "LAMRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 12,
+      "versionName": "3.1.1.7",
+      "enabled": true,
+      "outputFile": "app-LAM-release.apk"
+    }
+  ]
+}

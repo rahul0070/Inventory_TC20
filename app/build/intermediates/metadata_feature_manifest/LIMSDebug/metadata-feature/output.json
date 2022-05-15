@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "applicationId": "Inventory.LIMS",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "METADATA_FEATURE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 12,
+        "versionName": "3.1.1",
+        "outputFile": "app-LIMS-debug.apk",
+        "fullName": "LIMSDebug",
+        "baseName": "LIMS-debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {}
+    }
+  ]
+}

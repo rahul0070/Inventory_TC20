@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "Inventory.LIMS",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 12,
+        "versionName": "3.1.1",
+        "outputFile": "app-LIMS-debug.apk",
+        "fullName": "LIMSDebug",
+        "baseName": "LIMS-debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "Inventory.LIMS",
+        "split": "",
+        "minSdkVersion": "24"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "Inventory.LAM.release",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 12,
+        "versionName": "3.1.1.7",
+        "outputFile": "app-LAM-release.apk",
+        "fullName": "LAMRelease",
+        "baseName": "LAM-release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "Inventory.LAM.release",
+        "split": "",
+        "minSdkVersion": "24"
+      }
+    }
+  ]
+}

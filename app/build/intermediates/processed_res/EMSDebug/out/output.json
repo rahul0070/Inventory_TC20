@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "Inventory.EMS",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 12,
+        "versionName": "3.1.1",
+        "outputFile": "app-EMS-debug.apk",
+        "fullName": "EMSDebug",
+        "baseName": "EMS-debug",
+        "dirName": ""
+      },
+      "path": "resources-EMSDebug.ap_",
+      "properties": {
+        "packageId": "Inventory.EMS",
+        "split": "",
+        "minSdkVersion": "24"
+      }
+    }
+  ]
+}

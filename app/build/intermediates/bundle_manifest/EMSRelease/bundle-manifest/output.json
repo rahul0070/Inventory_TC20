@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "Inventory.EMS.release",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 12,
+        "versionName": "3.1.1.7",
+        "outputFile": "app-EMS-release.apk",
+        "fullName": "EMSRelease",
+        "baseName": "EMS-release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "Inventory.EMS.release",
+        "split": "",
+        "minSdkVersion": "24"
+      }
+    }
+  ]
+}
